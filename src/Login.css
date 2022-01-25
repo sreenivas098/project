@@ -1,0 +1,99 @@
+.form{
+    background-color:lightgreen;
+    align-items: center;
+    padding: 30px;
+    max-width: 25%;
+    font-family: Arial;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    font-family: verdana;
+    margin: auto;
+    width: 50%;
+    border: 5px solid red;
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+    color:blue;
+    font-family: verdana;
+}
+.h2{
+    text-align: center;
+    text-decoration: none;
+    color:red;
+    font-family: verdana;
+}
+.form input[type="text"],.form input[type="password"]{
+	border:0;
+	background:grey;
+	margin:20px auto;
+	text-align: center;
+	border:2px solid #3498bd;
+	padding: 14px 10px;
+    width: 200px;
+	outline: none;
+	color:white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.radio{
+    display:flex;
+    flex-direction:row;
+}
+.button{
+    padding: 10;
+    font-family: verdana;
+}
+.register{
+    text-align: left;
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    padding: 20px;
+    max-width: 40%;
+    border: 5px solid blue;
+    width: 400px;
+	margin: 100px auto 0px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #ffff;
+}
+.register input{
+    width:300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+.register button{
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.select{
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:320px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}

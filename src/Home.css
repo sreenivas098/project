@@ -1,0 +1,31 @@
+.top{
+    font-family: Verdana;
+    background-color: lightsalmon;
+    padding-top: 10px;
+    display: flex;
+
+}
+.top p{
+    padding: 0px 5px;
+
+}
+.top .list{
+    display: flex;
+    margin-left: 70%;
+
+}
+.below{
+    background-color: lightskyblue;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+.list p:hover{
+    background-color:springgreen;
+}
